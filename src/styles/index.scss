@@ -1,7 +1,40 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+input{
+      width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: #EFF0F6 1px solid;
+    background-color: #EFF0F6;
 
+    
+    color: #6b6b6b;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    z-index: 1;
+}
+.col-6 offset-3{
+    
+}
+
+.todo-completed{
+    
+}
+span{
+    font-size: 50px;
+}
+li{
+     list-style:none
+}
+h1{
+    color: #d2b9be;
+}
+.container{
+    width: 50%;
+    background-color: #e0d6d8;
+    height: auto;
+}/* 
     You can write your own styles here...
     
     
@@ -9,5 +42,4 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
